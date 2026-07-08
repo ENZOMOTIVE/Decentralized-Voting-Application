@@ -1,46 +1,47 @@
 # Decentralized Voting Application
 
-`Decentralized-Voting-Application` is a smart-contract project with Solidity sources and supporting JavaScript/TypeScript tooling for local development, testing, and deployment.
+## Project Tags
 
-This README replaces a minimal placeholder with fuller project documentation.
+- `Protocol`
+
+## Overview
+
+Decentralized Voting Application is a protocol or smart-contract repository with blockchain-oriented source files and tooling.
 
 ## Features
 
-- JavaScript/TypeScript project structure with package scripts
-- Smart contract source, deployment, or test workflow
-- Static browser application that can be opened locally
+- Smart contracts, deployment scripts, or protocol code
+- Static browser UI that can run without a backend
 
 ## Tech Stack
 
-- Node.js
-- Solidity
 - Hardhat
+- Node.js
+- JavaScript
 - HTML
 - CSS
-- JavaScript
 
 ## Project Structure
 
-- `.env` - project file
-- `.gitignore` - project file
-- `README.md` - project documentation
-- `bg.jpg` - project file
-- `hardhat.config.js` - project file
-- `index.html` - static app entry page
-- `package-lock.json` - project file
+- `.env` - project file or directory
+- `.gitignore` - project file or directory
+- `bg.jpg` - project file or directory
+- `hardhat.config.js` - Hardhat configuration
+- `index.html` - static app entry point
+- `package-lock.json` - project file or directory
 - `package.json` - Node package metadata and scripts
-- `script.js` - browser JavaScript
-- `style.css` - CSS styles
+- `script.js` - project file or directory
+- `style.css` - project file or directory
 
 ## Getting Started
 
 ### Prerequisites
 
+- Git
 - Node.js 18+
-- A configured Web3 wallet or RPC endpoint when deploying contracts
-- A modern web browser
+- Wallet/RPC access for deployed contract workflows
 
-### Setup
+### Setup and Run
 
 ```bash
 git clone https://github.com/ENZOMOTIVE/Decentralized-Voting-Application.git
@@ -51,34 +52,35 @@ cd Decentralized-Voting-Application
 npm install
 ```
 
-Open `index.html` in a browser, or serve the folder with a lightweight static server.
+For static pages, open `index.html` in a browser or serve the repository with `python3 -m http.server`.
 
-## Available Commands
+## Commands
 
-- `package.json` - scripts: `test`
+- `package.json`: `test`
+- `npx hardhat compile`: compile smart contracts.
+- `npx hardhat test`: run smart-contract tests when test files are present.
 
 ## Configuration
 
-- Create a local `.env` file for secrets, API keys, RPC URLs, private keys, bot tokens, or database credentials.
-- Keep `.env` files out of version control and document required variable names as the project stabilizes.
+- Store private keys, RPC URLs, wallet mnemonics, and API keys in a local `.env` file only.
 
 ## Testing and Quality
 
 - From the repository root, run `npm test`.
-- Run the Hardhat test suite if the repo includes contract tests.
+- Run `npx hardhat test` for contract-level checks when tests are present.
 
-## Roadmap
+## Documentation Notes
 
-- Keep setup instructions aligned with the actual project workflow.
-- Add screenshots, architecture notes, or API examples as the implementation grows.
-- Document deployment steps once the hosting target is finalized.
+- Keep this README aligned with the actual source layout and commands.
+- Add screenshots, API examples, contract addresses, or deployment links when they become stable.
+- Update the project tags when the scope changes.
 
 ## Contributing
 
-1. Create a feature branch.
-2. Make focused changes and update documentation when behavior changes.
+1. Create a focused branch for the change.
+2. Update code and documentation together.
 3. Run the relevant checks before opening a pull request.
 
 ## License
 
-No license file is currently included. Add one before distributing or reusing this project publicly.
+No license file is currently committed. Add one before distributing this project publicly.
