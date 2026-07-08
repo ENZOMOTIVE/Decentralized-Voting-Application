@@ -1,10 +1,22 @@
 # Decentralized Voting Application
 
-> Decentralized Voting Application is a protocol-focused repository for Solidity contracts, blockchain experiments, or Web3 infrastructure.
+> Decentralized Voting Application is a blockchain voting application designed to keep voter records and voting activity tamper-resistant.
 
 ## The Story
 
 Decentralized Voting Application starts with a simple goal: keep protocol code, deployment context, and contract behavior understandable from the first page. Its shape tells the same story: the protocol or smart-contract layer sits at the center so a maintainer can understand the project before diving into individual files.
+
+## Detailed Description
+
+Decentralized Voting Application is a blockchain voting application designed to keep voter records and voting activity tamper-resistant. This README is meant to explain the project like a handoff note: what the idea is, why the repository exists, and how someone can start working with it without opening every file first.
+
+The protocol side is the center of gravity. Contract behavior, supported networks, deployment assumptions, and testing commands should stay close to the README because they define how safely the project can be reused.
+
+At the top level, the most important entry points are `.env`, `bg.jpg`, `hardhat.config.js`, `index.html`, `package.json`, and `script.js`. Together they show the current boundary of the project and make it easier to separate product code, support files, documentation, and experiments.
+
+The declared Node surfaces include the root package (scripts: `test`). Those package files are the best starting points for understanding how the app runs, builds, or validates itself.
+
+The visible stack currently points to `Hardhat`, `Node.js`, `JavaScript`, `HTML`, and `CSS`. Keep this list honest as the project changes so the README remains useful as a first technical map.
 
 ## What It Includes
 
