@@ -1,47 +1,30 @@
 # Decentralized Voting Application
 
-## Project Tags
+> Decentralized Voting Application is a protocol-focused repository for Solidity contracts, blockchain experiments, or Web3 infrastructure.
 
-- `Protocol`
+## The Story
 
-## Overview
+Decentralized Voting Application starts with a simple goal: keep protocol code, deployment context, and contract behavior understandable from the first page. Its shape tells the same story: the protocol or smart-contract layer sits at the center so a maintainer can understand the project before diving into individual files.
 
-Decentralized Voting Application is a protocol or smart-contract repository with blockchain-oriented source files and tooling.
+## What It Includes
 
-## Features
+- Protocol or smart-contract files that anchor the Web3 side of the project.
 
-- Smart contracts, deployment scripts, or protocol code
-- Static browser UI that can run without a backend
+## How It Is Put Together
 
-## Tech Stack
+| Path | Role |
+| --- | --- |
+| `.env` | project file or folder |
+| `.gitignore` | ignored local, dependency, and build files |
+| `bg.jpg` | project file or folder |
+| `hardhat.config.js` | JavaScript source |
+| `index.html` | static browser entry point |
+| `package-lock.json` | locked dependency versions |
+| `package.json` | Node package scripts and dependencies |
+| `script.js` | JavaScript source |
+| `style.css` | project file or folder |
 
-- Hardhat
-- Node.js
-- JavaScript
-- HTML
-- CSS
-
-## Project Structure
-
-- `.env` - project file or directory
-- `.gitignore` - project file or directory
-- `bg.jpg` - project file or directory
-- `hardhat.config.js` - Hardhat configuration
-- `index.html` - static app entry point
-- `package-lock.json` - project file or directory
-- `package.json` - Node package metadata and scripts
-- `script.js` - project file or directory
-- `style.css` - project file or directory
-
-## Getting Started
-
-### Prerequisites
-
-- Git
-- Node.js 18+
-- Wallet/RPC access for deployed contract workflows
-
-### Setup and Run
+## Local Development
 
 ```bash
 git clone https://github.com/ENZOMOTIVE/Decentralized-Voting-Application.git
@@ -52,34 +35,38 @@ cd Decentralized-Voting-Application
 npm install
 ```
 
-For static pages, open `index.html` in a browser or serve the repository with `python3 -m http.server`.
+For static projects, open `index.html` directly or run `python3 -m http.server` from the project folder.
 
-## Commands
+## Command Surface
 
-- `package.json`: `test`
-- `npx hardhat compile`: compile smart contracts.
-- `npx hardhat test`: run smart-contract tests when test files are present.
+| Area | Commands |
+| --- | --- |
+| `package.json` | `test` |
+| Smart contracts | `npx hardhat compile`, `npx hardhat test` |
 
 ## Configuration
 
-- Store private keys, RPC URLs, wallet mnemonics, and API keys in a local `.env` file only.
+- Keep wallet private keys, RPC URLs, mnemonics, and contract secrets outside version control.
 
-## Testing and Quality
+## Quality Checks
 
 - From the repository root, run `npm test`.
-- Run `npx hardhat test` for contract-level checks when tests are present.
+- Run the Hardhat test suite before deploying or changing contract behavior.
 
-## Documentation Notes
+## Where To Take It Next
 
-- Keep this README aligned with the actual source layout and commands.
-- Add screenshots, API examples, contract addresses, or deployment links when they become stable.
-- Update the project tags when the scope changes.
+- Record supported networks, deployment addresses, and contract verification steps when they exist.
+- Keep setup commands current whenever dependencies, scripts, or deployment targets change.
+- Record important product decisions here so the repository keeps its story as the code evolves.
 
-## Contributing
+## Project Metadata
 
-1. Create a focused branch for the change.
-2. Update code and documentation together.
-3. Run the relevant checks before opening a pull request.
+| Field | Details |
+| --- | --- |
+| Repository | `ENZOMOTIVE/Decentralized-Voting-Application` |
+| Categories | `Protocol` |
+| Primary stack | Hardhat, Node.js, JavaScript, HTML, CSS |
+
 
 ## License
 
